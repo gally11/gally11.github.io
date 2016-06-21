@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Accueil</title>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/style.css" media="screen"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body id="page1">
+    <header>
+      <div class="Degrade row">
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="index.html">Accueil</a></li>
+          <li class="divider"></li>
+          <li><a href="moi.html">Qui suis-je ?</a></li>
+          <li class="divider"></li>
+          <li><a href="perso.html">Mes loisirs, passions...</a></li>
+          <li class="divider"></li>
+          <li><a href="pro.html">Ma boite, mon job</a></li>
+        </ul>
+        <div id="menu" class="nav-wrapper col s2">
+          <a class="dropdown-button" href="#!" data-activates="dropdown1"><img src="images/bouton_menu.png" alt="" /></a>
+        </div>
+        <div class="col s8" id="nom">
+          <h1>Guillaume Leroy</h1>
+        </div>
+        <div class="col s2" id="moi">
+          <img  src="images/photo_moi.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <div id="phrase_accueil">
+      <p>Bonjour et bienvenue sur ma page,vous voulez en apprendre plus sur moi et me découvrir, choisissez votre palet et <b>lancez-le vers la cage !</b></p>
+    </div>
+    <div class="row">
+      <div class="col l6 offset-l3 s12" id="zone_but">
+        <img id="goaly" src="images/goaly.png" alt="" />
+      </div>
+    </div>
+    <div id="puck">
+      <a id="draggable" href="moi.html"><img  class="ui-widget-content" src="images/palet_moi.png" alt="" /></a>
+      <a id="draggable2" href="perso.html"><img  class="ui-widget-content" src="images/palet_perso.png" alt="" /></a>
+      <a id="draggable3" href="pro.html"><img  class="ui-widget-content" src="images/palet_pro.png" alt="" /></a>
+    </div>
+    <footer>
+      <div class="Degrade2">
+        <div id="scx">
+          <div class="scx">
+          <a class="" href="http://facebook.com/guillaume.leroy.391"><img src="images/bouton_facebook.png" alt="" /></a>
+          <a class="" href="https://twitter.com/nounours46050"><img src="images/bouton_twitter.png" alt="" /></a>
+          </div>
+          <div class="scx">
+            <a class="" href="https://www.linkedin.com/in/gleroy50"><img src="images/bouton_linnkedin.png" alt="" /></a>
+            <a class="" href="mailto:guillaume_leroy@sfr.fr"><img src="images/bouton_mail.png" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/draggable.js"></script>
+  </body>
+</html>

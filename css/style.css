@@ -1,0 +1,452 @@
+/*CSS ordonné par ordre des pages et par élément*/
+/*recherche facile par "*****", dans l'ordre:*/
+/*commun*/
+/*header*/
+/*accueil*/
+/*moi*/
+/*perso*/
+/*pro*/
+/*footer*/
+/*Conditions responsives au dessus de 1025px */
+/*Conditions responsives entre 601 et 992px*/
+/*Conditions responsives en dessous de 992px */
+/*Conditions responsives en dessous de 600px */
+
+
+
+/*****commun*/
+html, body {
+  margin:0;
+  padding: 0;
+  min-height:100%;
+}
+
+@font-face {
+  font-family: "mapolice";
+  src: url('../fonts/mapolice.ttf');
+}
+
+@font-face {
+  font-family: "mapolice2";
+  src: url('../fonts/mapolice2.ttf');
+}
+
+.row {
+  margin-bottom: 0;
+}
+
+.col {
+  padding: 0;
+}
+
+#main {
+  position: fixed;
+  z-index: -10;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+
+
+
+
+/*****header*/
+.Degrade {
+  background-image:linear-gradient(#155b7f, white);
+  width: 100%;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #ffffff;
+  font-family:mapolice;
+  text-shadow: 8px 4px 4px #494949;
+  text-align: center;
+}
+
+#moi {
+  text-align: right;
+  margin-top: 10px;
+}
+
+#menu {
+  margin-top: 50px;
+  padding-left:40px;
+}
+
+#menu a img {
+  height: 30px;
+  width: 30px;
+}
+
+#dropdown1 {
+  width: 200px !important;
+  top: 50px !important;
+  left: 80px !important;
+  position: absolute;
+}
+
+
+
+
+
+/*****acceuil*/
+#page1 {
+  background-image: url('../images/glace.jpg');
+  background-size: contain;
+}
+
+#phrase_accueil {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#zone_but {
+  text-align: center;
+  background-image: url('../images/cage.png');
+  background-repeat: no-repeat;
+  height: 220px;
+  background-position: center;
+}
+
+#goaly {
+  height: 30%;
+  position:absolute;
+  display:block;
+  padding-right: 40px;
+}
+
+#puck {
+  text-align: center;
+}
+
+#puck img{
+  display: inline-block;
+  width: 18%;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 0;
+}
+
+
+
+
+
+/*****moi*/
+#moi_hockey {
+  height: 450px;
+}
+
+#moi_hockey img{
+  height: 100%
+}
+
+
+
+
+
+/*****perso*/
+#page3 {
+  background-image: url('../images/crosse.jpg');
+  background-repeat: no-repeat;
+  background-position: 0px -250px, center;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#hockey_text img {
+  height:140px;
+  width: auto;
+  margin-top: 200px;
+}
+
+#ch img {
+  height:115px;
+  width: auto;
+  margin-top: 15px;
+}
+
+#guitar img {
+  height:130px;
+  width: auto;
+  padding-right: 20px;
+  margin-top: 220px;
+}
+
+.showbox {
+  background-color: rgba(255, 255, 255, 0.9);
+  border: 2px groove #bbbbbb;
+  border-radius: 10px;
+  z-index: 20;
+  position: fixed;
+}
+
+#boxch {
+  margin-top: 200px;
+}
+
+#boxhockey {
+  margin-top: 30px;
+}
+
+#boxguitar {
+  margin-top: 30px;
+}
+
+.close {
+  display: none;
+}
+
+
+
+
+
+/*****pro*/
+#contenu {
+  background-image: url('../images/cable_ethernet3.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 1px solid black;
+  margin-top: 50px;
+}
+
+#site {
+  margin-top: -20px;
+}
+
+#site img {
+  width:100%;
+}
+
+#bouton_site {
+  text-align: center;
+  font-family: mapolice2;
+  margin-top: -20px;
+}
+
+.btn {
+  text-transform: none;
+  font-weight: bold;
+}
+
+p {
+  font-family: mapolice2;
+  text-align: justify;
+}
+
+
+
+
+
+/*****footer*/
+.Degrade2 {
+  background-image:linear-gradient(white, #155b7f);
+  height: 80px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
+
+.scx img {
+  margin-right: 5px;
+  width: 30px;
+  height: 30px;
+}
+
+#scx {
+  text-align: right;
+  margin-top: 8px;
+}
+
+
+
+
+/*****Conditions responsives au dessus de 1025px */
+@media screen and (min-width: 1025px){
+/*animation des logos page perso*/
+  #hockey_text img:hover {
+    height: 145px;
+  }
+
+  #ch img:hover {
+    height: 120px;
+  }
+
+  #guitar img:hover {
+    height: 135px;
+  }
+}
+
+
+
+
+
+/*****Conditions responsives entre 601 et 992px */
+@media screen and (min-width: 601px) and (max-width: 992px){
+/*page accueil*/
+  h1 {
+    font-size: 290%;
+  }
+
+  #moi img {
+    height: 100px;
+  }
+
+  .Degrade2 {
+    height: 70px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+/*page moi*/
+  #moi_hockey {
+    height: 420px;
+    margin-top: 60px;
+    margin-left: -120px;
+    padding-right: 10px;
+  }
+}
+
+
+
+
+/*****Conditions responsives en dessous de 992px */
+@media screen and (max-width: 992px){
+/*bouton réseaux sociaux*/
+  .scx {
+    display: inline-block;
+  }
+
+  #scx {
+    text-align: center;
+  }
+
+  .scx img {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+
+
+
+/*****Conditions responsives en dessous de 600px */
+@media screen and (max-width: 600px){
+/*page acceuil*/
+  h1 {
+    font-size: 170%;
+  }
+
+  #moi img {
+    height: 70px;
+  }
+
+  #menu {
+    margin-top: 35px;
+    padding-left:20px;
+  }
+
+  #menu a img {
+    height: 25px;
+    width: 25px;
+  }
+
+  #dropdown1 {
+    top: 0px !important;
+    left: 0px !important;
+  }
+
+  #zone_but {
+    background-size: contain;
+  }
+
+  #goaly {
+    height: 30%;
+  }
+
+  #puck img{
+    width: +28%;
+  }
+
+  .Degrade2 {
+    height: 50px;
+  }
+
+  .scx img {
+    margin-top: 5px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+/*page moi*/
+  #moi_hockey {
+    text-align: center;
+    height:200px;
+    margin-left: -20px;
+  }
+
+/*page perso*/
+  .logo {
+    margin-top: 10px;
+  }
+
+  #hockey_text img {
+    margin-top: 10px;
+  }
+
+  #ch img {
+    margin-top: 10px;
+  }
+
+  #guitar img {
+    margin-top: 25px;
+    padding-right: 0;
+  }
+
+  #boxch {
+    margin-top: 175px;
+  }
+
+  #boxhockey {
+    margin-top: 155px;
+  }
+
+  #boxguitar {
+    margin-top: 195px;
+  }
+
+/*page pro*/
+  #contenu {
+    border-top: 0;
+    margin-top: 0;
+  }
+
+  #texte {
+    background-image: url('../images/cable_ethernet3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-bottom: 1px solid black;
+    padding: 0;
+  }
+
+  #bouton_site {
+    margin-top: 2%;
+  }
+
+  #contenu {
+    background : none;
+  }
+}
