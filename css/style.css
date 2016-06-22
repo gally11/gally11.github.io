@@ -344,6 +344,10 @@ p {
 /*****Conditions responsives en dessous de 600px */
 @media screen and (max-width: 600px){
 /*page acceuil*/
+  .Degrade {
+    height: 80px;
+  }
+
   h1 {
     font-size: 140%;
     margin-top: 20px;
@@ -371,7 +375,7 @@ p {
 
   #zone_but {
     background-size: contain;
-    height: 160px;
+    height: 170px;
     text-align: center;
   }
 
@@ -395,7 +399,7 @@ p {
   }
 
   .scx img {
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   p {
@@ -407,24 +411,32 @@ p {
     text-align: center;
     height:200px;
     margin-left: -20px;
+    margin-bottom: 50px;
   }
 
 /*page perso*/
+  #page3 {
+    background: none;
+  }
+
   .logo {
     margin-top: 10px;
   }
 
   #hockey_text img {
     margin-top: 10px;
+    height: 120px;
   }
 
   #ch img {
-    margin-top: 10px;
+    margin-top: 5px;
+    height: 95px;
   }
 
   #guitar img {
-    margin-top: 25px;
+    margin-top: 20px;
     padding-right: 0;
+    height: 110px;
   }
 
   #boxch {
