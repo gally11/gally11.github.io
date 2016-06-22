@@ -372,10 +372,14 @@ p {
   #zone_but {
     background-size: contain;
     height: 160px;
+    text-align: center;
   }
 
   #goaly {
-    height: 30%;
+    height: 100%;
+    position: inherit;
+    display: inline-block;
+    padding-right: 10px;
   }
 
   #puck img{
