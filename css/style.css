@@ -371,7 +371,6 @@ p {
 
   #zone_but {
     background-size: contain;
-    height: 200px;
   }
 
   #goaly {
@@ -382,7 +381,7 @@ p {
     width: +28%;
   }
 
-  #draggable3 {
+  #draggable3 img {
     margin-bottom: 50px;
   }
 
