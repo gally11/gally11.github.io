@@ -344,11 +344,13 @@ p {
 @media screen and (max-width: 600px){
 /*page acceuil*/
   h1 {
-    font-size: 160%;
+    font-size: 140%;
+    margin-top: 20px;
+    margin-bottom: 0;
   }
 
   #moi img {
-    height: 70px;
+    height: 65px;
   }
 
   #menu {
