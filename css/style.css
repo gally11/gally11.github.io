@@ -478,7 +478,7 @@ p {
     margin-top: 4%;
     margin-bottom: 70px;
     position: relative;
-    z-index: -1;
+    z-index: 0;
   }
 
   #contenu {
